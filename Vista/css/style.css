@@ -1,0 +1,25 @@
+.fondo {
+    background-color: aqua;
+}
+
+.caja {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 1rem;
+    background-color: #4e174655;
+    color: black;
+}
+
+.boton {
+    background-color: #57d95d;
+}
+.boton:hover {
+    background-color: rgb(23, 105, 34);
+}
