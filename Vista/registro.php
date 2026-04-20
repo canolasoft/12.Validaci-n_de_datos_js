@@ -12,26 +12,18 @@
     <div class="caja">
         <form id="form_registro" action="../Controlador/registro_proceso.php" method="POST">
             <h1>Registro de usuario</h1>
-            <label>Nombre</label>
-            <br>
-            <input id="nombre" type="text" name="nombre">
+            <label>Nombre</label><br>
+            <input id="nombre" type="text" name="nombre"><br>
+            
+            <label>Email</label><br>
+            <input id="email" type="email" name="email"><br>
 
-            <br>
-            <label>Email</label>
-            <br>
-            <input id="email" type="email" name="email">
+            <label>Password</label><br>
+            <input id="pass" type="password" name="pass"><br>
 
-            <br>
-            <label>Password</label>
-            <br>
-            <input id="pass" type="password" name="pass">
+            <label>Password</label><br>
+            <input id="pass2" type="password" name="pass2"><br>
 
-            <br>
-            <label>Password</label>
-            <br>
-            <input id="pass2" type="password" name="pass">
-
-            <br>
             <input class="boton" type="submit" value="Enviar">
         </form>
         <br>
